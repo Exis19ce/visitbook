@@ -1,0 +1,149 @@
+body{
+ background: #777675 repeat-x;
+ font: 12px arial, sans-serif;
+ color: #000;
+ margin: 0; padding: 0;
+ margin-bottom: 50px;
+}
+
+#holder{
+ position: relative;
+ left: 50%; top: 0;
+ width: 750px; height: auto;
+ margin-left: -375px; margin-bottom: 50px;
+ padding-bottom: 25px;
+ background-color: #F5F7F9;
+ border-left: 2px #436C78 solid; border-right: 2px #436C78 solid; border-bottom: 2px #436C78 solid;
+}
+
+#header, #menu, #undermenu, #content, #footer{
+ position: relative;
+ left: 0; top: 0;
+ width: 100%;
+}
+
+
+/* The header (with homepage name..). */
+
+#header{
+ height: 160px;
+ background:  url(img/menu-top-bg.png) repeat-x;
+}
+
+#header h1{
+ position: absolute;
+ left: 20px; bottom: 20px;
+ margin: 0;
+ font: 1.4em georgia, serif;
+ color: #fff;
+ z-index: 1;
+}
+
+#header h2{
+ position: absolute;
+ left: 21px; bottom: 19px;
+ margin: 0;
+ font: 1.4em georgia, serif;
+ color: #3E515E;
+ z-index: 0;
+}
+
+
+#menu{
+ height: 18px;
+ padding-top: 2px;
+ padding-left: 10px;
+ text-align: left;
+ font: 1em arial, sans-serif;
+}
+
+   #menu a{ color:#7A96A7; text-decoration:none; font-weight:bold; margin-left:10px; margin-right: 10px; }
+   #menu a:hover{ color:#000; text-decoration:none; margin-left:10px; margin-right: 10px; }
+
+#undermenu{
+ height: 24px;
+ background: url(img/menu-bottom-bg.png) repeat-x;
+}
+
+#content{
+ padding-left: 5px;
+ height: auto;
+ background-color: transparent;
+}
+
+a{
+ color: #191970;
+}
+
+a:hover{
+ color: #08055e;
+ text-decoration: none;
+}
+
+
+.table_usl{
+ border:1px solid black;
+ width: 740px;
+ height: auto;
+ background-color: #B0C4DE;
+ margin-bottom: 10px;
+ margin-left: 5px;
+}
+
+.td_name {
+ font-size: 25px;
+}
+
+.td_text {
+ font-size: 14px;
+}
+
+.img_tov{
+ height: auto;
+ width: 60px;
+}
+
+.page{
+ position: relative;
+ left: 50%; top: 0;
+ width: 100%;
+ margin: 2px;
+}
+
+ .page_non{
+ position: relative;
+ left: 50%; top: 0;
+ width: 100%;
+ margin: 2px;
+ text-decoration: none;
+}
+
+.date{
+ position: relative;
+ color: #ffffff;
+ text-align: right;
+}
+
+.img_mail{
+ width: 12px;
+ height: auto;
+}
+
+.mail{
+ padding: 3px;
+ color: #7A96A7;
+ font-size: 14px;
+}
+
+#refresh {
+ height: 15px;
+ width: auto;
+}
+
+#error{
+ color: red;
+}
+
+span{
+ color: red;
+}
